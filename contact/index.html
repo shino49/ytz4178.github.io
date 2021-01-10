@@ -339,7 +339,7 @@
 
 <script>
     // 每天切换 banner 图.  Switch banner image every day.
-    var bannerUrl = "https://cdn.jsdelivr.net/gh/ytz4178/ytz4178.github.io@master/medias/banner/" + (new Date().getDay()+1) + '.jpg';
+    var bannerUrl = "https://cdn.jsdelivr.net/gh/ytz4178/ytz4178.github.io@master/medias/banner/" + new Date().getDay() + '.jpg';
     $('.bg-cover').css('background-image', 'url(' + bannerUrl + ')');
 </script>
 
